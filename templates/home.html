@@ -8,8 +8,10 @@
         {% csrf_token %}
 
         <strong>Enter a Tagalog word and I will return the part of speech:</strong> <br/>
-        <input type="text" name="word">
-        <input type="submit" value="Submit" placeholder="e.g. 'maliit'">
+        <div class="form-group">
+            <input class="form-control" type="text" name="word">
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit" placeholder="e.g. 'maliit'">
     </form>
 </div>
 
@@ -22,8 +24,10 @@
     form {
         width: 40%;
     }
-    input {
+    input.form-control {
+        margin: auto;
         margin-top: 20px;
+        width: 40%;
     }
 </style>
 

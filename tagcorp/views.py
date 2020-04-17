@@ -32,16 +32,22 @@ def search_word(request):
         lines = infile.readlines()
         for line in lines:
             tagset[line.split('--')[1].lower()] = line.split('--')[0]
+
+    if pos == None:
+        return render(request, 'failed_result.html', {
+            'err': TypeError,
+            'word': word,
+        })
+
     data = {
         'tag': pos,
         'tag_normalized': tagset[pos],
         'word': word,
     }
-    print(data)
+
     has_n = ''
     if tagset[pos][0] in 'aeiou':
         has_n = 'n'
-
     return render(request, 'result.html', {
         'tag': pos[0:-2].upper(),
         'tag_normalized': tagset[pos],
