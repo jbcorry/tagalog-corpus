@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Report</title>
+</head>
+<body>
+<h2>Create Daily Progress Report</h2>
+    <form action="/postcreate/" method="post">
+
+        {% csrf_token %}
+
+        Work Assigned:
+        <input type="text" name="work" required><br/><br/>
+        Progress:
+        <textarea rows="5" cols="40" name="progress" required></textarea><br/><br/>
+        <input type="submit" value="Submit">
+    </form>
+<div class="logout">
+    <button type="button" onclick="location.href='{% url 'logout' %}'">Logout</button>
+</div>
+<style>
+    div.logout {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+    }
+</style>
+</body>
+</html>

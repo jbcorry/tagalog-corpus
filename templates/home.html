@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Welcome to my Tagalog Part of Speech Corpus!</h1>
+
+
+<form action="search_word" method="post">
+
+    {% csrf_token %}
+
+    Enter a Tagalog word and I will return the part of speech (e.g. "maliit"): <input type="text" name="word">
+    <input type="submit" value="Submit">
+</form>
+
+<!--This button is for populating the database with new pos data it is hidden by default-->
+
+<!--<button type="button" onclick="location.href='{% url 'pop_database' %}'">Populate the database</button>-->
+
+<style>
+
+</style>
+
+{% endblock %}

@@ -1,0 +1,71 @@
+﻿Noun (Pangngalan)--NN 
+Common Noun (count noun--NNC 
+Proper Noun--NNP 
+Proper Noun Abbreviation--NNPA
+Common Noun Abbreviation--NNCA
+Pronoun (Panghalip)--PR
+ as Subject (Palagyo)/Personal Pronouns Singular--PRS
+Personal Pronouns (Plural)--PRP
+Possessive Subject Pronoun(Paari)--PRSP
+Pointing to an Object Demonstrative/(Paturol/Pamatlig)--PRO
+Question/Interrogative (Pananong)/Singular--PRQ
+Question/Interrogative Plural--PRQP
+Location (Panlunan)--PRL
+Comparison (Panulad)--PRC
+Found (Pahimaton)--PRF
+Indefinite--PRI
+Determiner (Pantukoy)--DT
+for Common Noun--DTC
+for Common Noun Plural--DTCP
+for Proper Noun--DTP
+for Proper Noun Plural--DTPP
+Lexical Marker--LM
+Conjunctions (Pang-ugnay)--CC
+Conjunctions--CCT 
+Conjunctions--CCR 
+Conjunctions--CCB
+Conjunctions--CCA
+Conjunctions--CCP
+Preposition (Pang-ukol)--CCU
+Verb (Pandiwa)--VB
+Neutral/Infinitive--VBW
+Auxiliary, Modal/Pseudo-verbs--VBS
+Existential--VBH
+Non-existential--VBN
+Time Past (Perfective)--VBTS
+Time Present (Imperfective)--VBTR
+Time Future (Contemplative)--VBTF
+Recent past--VBTP
+Actor Focus--VBAF
+Object/Goal Focus--VBOF
+Benefactive Focus--VBOB
+Locative Focus--VBOL
+Instrumental Focus--VBOI
+Referential/Measurement--Focus VBRF
+Adjective (Pang-uri)--JJ
+Describing Adjective(Panlarawan)--JJD
+Used Adjective (Pahambing for Comparison Magkatulad) (same level)--JJC 
+Comparison Adjective (Palamang) Comparative (more)--JJCC
+Comparison Superlative Adjective (most) (Pasukdol)--JJCS
+Comparison (Di-Magkatulad) Negation Adjective (not quite)--JJCN
+Describing Number Adjective (Pamilang)--JJN
+Adverb (Pang-Abay)--RB 
+Describing “How” Adverb (Pamaraan)--RBD
+Number Adverb (Panggaano/Panukat)--RBN
+Conditional Adverb (Kondisyunal)--RBK
+Causative Adverb (Pananhi)--RBP
+Benefactive Adverb (Benepaktibo)--RBB
+Referential Adverb (Pangkaukulan)--RBR
+Question Adverb (Pananong)--RBQ
+Agree Adverb (Panang-ayon)--RBT
+Disagree Adverb (Pananggi)--RBF
+Frequency Adverb (Pamanahon)--RBW 
+Possibility Adverb (Pang-agam)--RBM
+Place Adverb (Panlunan)--RBL
+Enclitics Adverb (Paningit)--RBI
+Interjection (Sambitla)--RBJ
+Social Formula Adverb (Pormularyong Panlipunan)--RBS
+Cardinal Number (Bilang)--CD
+Digit, Rank, Count--CDB
+Topicless (Walang Paksa)--TS
+Foreign Words--FW
