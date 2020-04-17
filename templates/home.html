@@ -1,23 +1,30 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Welcome to my Tagalog Part of Speech Corpus!</h1>
 
+<div class="form-wrapper d-flex justify-content-center align-items-center mt-5">
+    <form class="text-center" action="search_word" method="post">
 
-<form action="search_word" method="post">
+        {% csrf_token %}
 
-    {% csrf_token %}
+        <strong>Enter a Tagalog word and I will return the part of speech:</strong> <br/>
+        <input type="text" name="word">
+        <input type="submit" value="Submit" placeholder="e.g. 'maliit'">
+    </form>
+</div>
 
-    Enter a Tagalog word and I will return the part of speech (e.g. "maliit"): <input type="text" name="word">
-    <input type="submit" value="Submit">
-</form>
 
 <!--This button is for populating the database with new pos data it is hidden by default-->
 
 <!--<button type="button" onclick="location.href='{% url 'pop_database' %}'">Populate the database</button>-->
 
 <style>
-
+    form {
+        width: 40%;
+    }
+    input {
+        margin-top: 20px;
+    }
 </style>
 
 {% endblock %}

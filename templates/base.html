@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-{% load static %}
 <head>
     <meta charset="UTF-8">
     <title>TagCorp</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 <body>
     <nav class="d-flex justify-content-between">
         <a class="nav-link" href="/">Tagalog Corpus</a>
-        <h4>A project by Jake Corry</h4>
+        <div class="mt-2 mr-3">A project by Jake Corry</div>
     </nav>
-    <style>
-        nav {
-            height: 60px;
-            background-color: white;
-        }
-    </style>
-
     {% block content %}
     {% endblock %}
 
 </body>
 <style>
     nav {
-        background-color: #000;
+        background-color: #00897b;
+        color: #000;
+        font-weight: 600;
+    }
+    nav a.nav-link {
+        color: #000
+    }
+    nav a.nav-link:hover {
+        color: #c1d2d0;
+    }
+    body {
+        background-color: #c1d2d0;
     }
 </style>
 </html>

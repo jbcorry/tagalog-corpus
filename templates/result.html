@@ -1,7 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="results-wrapper d-flex justify-content-center align-items-center">
+    <p><strong>The word '{{word}}' is a{{has_n}} {{tag_normalized}} ({{tag}})</strong></p>
+</div>
+<div class="text-center">
+        <button type="button" onclick="location.href='{% url 'home' %}'">Search another word!</button>
+</div>
 
-    The word '{{word}}' is a{{has_n}} {{tag_normalized}} ({{tag}})
-
+<style>
+    .results-wrapper {
+        margin-top:50px;
+    }
+</style>
 {% endblock %}
